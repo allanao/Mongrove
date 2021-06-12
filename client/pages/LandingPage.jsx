@@ -3,3 +3,6 @@
 //SchemaPanel component
 
 
+
+
+export default LandingPage;
