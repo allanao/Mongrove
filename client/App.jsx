@@ -16,7 +16,7 @@ import LandingPage from './pages/LandingPage'
 const App = () => {
     return (
         <div>
-            test text
+            App component rendering!!
             <LandingPage />
         </div>
     );

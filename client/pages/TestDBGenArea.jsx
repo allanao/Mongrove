@@ -11,7 +11,7 @@ const TestDBGenArea = () => {
 
             <label for="selectSchema">Select Schema Name</label>
             <select id="selectSchema" name="selectSchema">
-            {/* placeholder values for schema */}
+            {/* placeholder values for schema selection */}
                 <option value="sampleSchema1">sampleSchema1</option>
                 <option value="sampleSchema2">sampleSchema2</option>
                 <option value="sampleSchema3">sampleSchema3</option>
