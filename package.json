@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "description": "",
-  "main": "index.js",
+  "main": "./src/main/index.js",
   "scripts": {
     "build": "webpack --config ./webpack.config.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ./dist/bundle.js"
+    "watch": "webpack --config ./webpack.common.js --watch",
+    "start": "electron ."
   },
   "keywords": [],
   "author": "",

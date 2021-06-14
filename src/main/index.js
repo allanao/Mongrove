@@ -1,7 +1,6 @@
-import React from 'react';
-const { app, BrowserWindow } = require('electron');
-const remote = electron.remote;
-const { BrowserWindow, diaglog, Menu } = remote;
+const { BrowserWindow, app } = require('electron');
+// const remote = electron.remote;
+// const { BrowserWindow, diaglog, Menu } = remote;
 
 // index.js is the entrypoint of webpack for the main process
 // this file contains logic for opening an electron window and managing the application state
@@ -36,16 +35,19 @@ function createWindow () {
     width: 800,
     height: 600,
     webPreferences: {
-      nodeIntegration: true,
-      enableRemoteModule: true,
+      // nodeIntegration: true,
+      // enableRemoteModule: true,
+      nodeIntegration: false,
+      worldSafeExecuteJavaScript: true,
+      contextIsolation: true
     }
   });
 
   // and load the index.html of the app.
-  // win.loadFile('index.html');
+  win.loadFile('../Mongrove/client/index.html');
 
   // load the index.html from a url
-  win.loadURL('http://localhost:3000');
+  // win.loadURL('http://localhost:3000');
 
   // Open the DevTools.
   // win.webContents.openDevTools();

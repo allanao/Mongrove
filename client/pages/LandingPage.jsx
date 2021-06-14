@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import SchemaPanel from '../components/SchemaPanel';
-import MainArea from '../components/MainArea';
+import MainArea from './MainArea';
 import DatabasePanel from '../components/DatabasePanel';
 
 //Navbar component
