@@ -34346,7 +34346,7 @@ __webpack_require__.r(__webpack_exports__);
 //render landing page when app is first opened
 
 var App = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, "App component rendering!!", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_pages_LandingPage__WEBPACK_IMPORTED_MODULE_2__.default, null));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "App component rendering!!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_pages_LandingPage__WEBPACK_IMPORTED_MODULE_2__.default, null));
 };
 
 react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(App, null), document.getElementById('app'));
