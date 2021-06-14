@@ -10,7 +10,6 @@ import DatabasePanel from '../components/DatabasePanel';
 
 const LandingPage = () => {
 
-   
     return (
         <div id="landingPage">
             <Navbar />
@@ -18,7 +17,7 @@ const LandingPage = () => {
             <MainArea />
             <DatabasePanel />
         </div>
-    );
+    )
 }
 
 
