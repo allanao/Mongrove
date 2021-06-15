@@ -4,6 +4,7 @@ import { HashRouter, Route, Switch } from 'react-router-dom';
 import LandingPage from './pages/LandingPage.jsx';
 import Navbar from './components/Navbar.jsx';
 import QueryPage from './pages/QueryPage.jsx';
+// import './stylesheets/styles.css';
 
 // renderer process
 // const { ipcRenderer } = require('electron');

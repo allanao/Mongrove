@@ -34453,7 +34453,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
- // renderer process
+ // import './stylesheets/styles.css';
+// renderer process
 // const { ipcRenderer } = require('electron');
 // ipcRenderer.send('anything-asynchronous', 'ping');
 //render landing page when app is first opened
