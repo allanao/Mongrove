@@ -2,9 +2,9 @@ import React from 'react';
 
 const SchemaItem = (props) => {
     // set initial state and respective values
-    const {
+    // const {
 
-    } = props;
+    // } = props;
 
     return (
         <div className="schemaItem">
