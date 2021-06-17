@@ -23,7 +23,6 @@ const ResultsItem = (props) => {
             {/* query throughput --> display result from backend here */}
             {/* {Math.ceil(1000 / props.queryRuntime)} */}
             0.6
-          </h5>
           <p className="metricLabel"> Query Throughput <br />(amount/ms)</p>
         </div>
       </div>
