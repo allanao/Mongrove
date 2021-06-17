@@ -5,7 +5,7 @@ const ResultsItem = (props) => {
   return (
     <div className="resultItem">
       <h3 className="result-queryName">
-        {/* {props.id + 1}. {props.queryName} */}
+        {/* {props.id + 1}. {props.testQueryName} */}
         firstQuery
       </h3>
       <div className="metricsContainer">
