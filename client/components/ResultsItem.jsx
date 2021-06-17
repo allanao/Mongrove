@@ -5,7 +5,7 @@ const ResultsItem = (props) => {
   return (
     <div className="resultItem">
       <h3 className="result-queryName">
-        {/* {props.id + 1}. {props.testQueryName} */}
+        {/* {props.id + 1}. {props.queryName} */}
         firstQuery
       </h3>
       <div className="metricsContainer">
@@ -21,7 +21,7 @@ const ResultsItem = (props) => {
         <div id="queryThroughputBlock" className="queryBlock">
           <h5 className="metricNums">
             {/* query throughput --> display result from backend here */}
-            {/* {props.queryThroughput} */}
+            {/* {Math.ceil(1000 / props.queryRuntime)} */}
             0.6
           </h5>
           <p className="metricLabel"> Query Throughput <br />(amount/ms)</p>

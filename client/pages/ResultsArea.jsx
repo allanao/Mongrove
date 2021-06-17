@@ -6,12 +6,13 @@ const ResultsArea = (props) => {
 
   // declare array to store result items to render
   // const resultsItemsList = [];
-  // for (let i = 0; i < props.testQueryList.length; i++) {
+  // for (let i = 0; i < props.testQueriesList.length; i++) {
   //   resultsItemsList.push(
   //     <ResultsItem
   //       key={i}
   //       id={i}
-  //       queryName={props.testQueryList[i].name}
+  //       queryName={props.testQueriesList[i].name}
+  //       queryRuntime={props.testQueriesList[i].time}
   //     />
   //   )
   // }
@@ -34,7 +35,7 @@ const ResultsArea = (props) => {
 
       <div id="resultsItemsContainer">
         {/* {resultsItemsList} */}
-        
+
         {/* sample results item display */}
         <ResultsItem />
         <ResultsItem />
